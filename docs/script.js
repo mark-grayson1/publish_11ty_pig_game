@@ -40,7 +40,7 @@ function generateDiceRoll() {
   let dice = Math.floor(Math.random() * 6) + 1;
 
   diceImg.style.display = "block";
-  diceImg.src = `/dice-${dice}.png`;
+  diceImg.src = "mark-grayson1.github.io/publish_11ty_pig_game//publish_11ty_pig_game/dice-${dice}.png";
   console.log(`Player ${activePlayer} rolled:
       ${dice}`);
 
